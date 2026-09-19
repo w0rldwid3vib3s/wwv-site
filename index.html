@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WorldWideVibes</title>
+  <meta name="description" content="WorldWideVibes — Grok-built digital products, built in public on GitHub." />
+  <style>
+    :root {
+      --ink: #0b0b0c;
+      --elev: #141416;
+      --bone: #eceae3;
+      --steel: #c8ccd4;
+      --mute: #9c9a93;
+      --line: rgba(200, 204, 212, 0.14);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--ink); color: var(--bone); }
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      min-height: 100dvh;
+      letter-spacing: 0.01em;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 3rem 1.4rem 5rem; }
+    .kicker {
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--mute);
+    }
+    h1 {
+      font-weight: 500;
+      font-size: clamp(2.2rem, 8vw, 3.4rem);
+      line-height: 1.05;
+      margin: 0.6rem 0 0.8rem;
+    }
+    .lede { color: var(--steel); font-size: 1.15rem; line-height: 1.5; max-width: 38ch; }
+    .rule { border: 0; border-top: 1px solid var(--line); margin: 2.2rem 0; }
+    article {
+      background: var(--elev);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 1.25rem 1.3rem 1.35rem;
+      margin: 0 0 1rem;
+    }
+    article h2 { margin: 0 0 0.35rem; font-size: 1.35rem; font-weight: 500; }
+    article p { margin: 0; color: var(--mute); line-height: 1.45; }
+    .status {
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--steel);
+      margin-bottom: 0.45rem;
+    }
+    a { color: var(--bone); }
+    a.btn {
+      display: inline-block;
+      margin-top: 0.9rem;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-bottom: 1px solid var(--steel);
+      padding-bottom: 0.15rem;
+    }
+    footer { margin-top: 2.4rem; color: var(--mute); font-size: 0.92rem; line-height: 1.55; }
+    footer a { color: var(--steel); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="kicker">WorldWideVibes · on GitHub</p>
+    <h1>Digital products,<br />built in public.</h1>
+    <p class="lede">A small studio. Grok builds. GitHub keeps the permanent copy. You publish.</p>
+    <hr class="rule" />
+
+    <article>
+      <p class="status">First public product</p>
+      <h2>Hollowpath</h2>
+      <p>Hold the road. A dusk-pass tower defense — iron lantern-tower, blight on the mountain cut.</p>
+      <a class="btn" href="https://github.com/paulcaetano21-hue/hollowpath">Open the GitHub repo</a>
+    </article>
+
+    <article>
+      <p class="status">Next</p>
+      <h2>Dropforge · Stave · Skill Creator</h2>
+      <p>Physics playground, browser music studio, modular agent skills. Each gets its own GitHub repository when it is ready to exist in public.</p>
+    </article>
+
+    <footer>
+      Catalog source: <a href="https://github.com/paulcaetano21-hue/wwv-site">github.com/paulcaetano21-hue/wwv-site</a><br />
+      Facebook: <a href="https://www.facebook.com/profile.php?id=61593856029809">WorldWideVibes</a>
+    </footer>
+  </main>
+</body>
+</html>
