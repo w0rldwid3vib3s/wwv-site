@@ -8,7 +8,7 @@ This is the product inventory. When a product gets its own GitHub **repository**
 - Line: Hold the road.
 - Kind: browser tower defense
 - Tone: dusk mountain pass, iron lantern-tower, blight beetle
-- GitHub: https://github.com/paulcaetano21-hue/hollowpath
+- GitHub: https://github.com/w0rldwid3vib3s/hollowpath
 - Status: public repo opened 18 Sep 2026 — playable build still to land
 
 ## Next (no repo yet)

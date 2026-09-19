@@ -25,7 +25,7 @@ Private planning lives in a different repo: `wwv-studio` (not public).
 
 | Product | Status | GitHub repo |
 | --- | --- | --- |
-| **Hollowpath** — “Hold the road.” Dusk-pass tower defense | First public product | [hollowpath](https://github.com/paulcaetano21-hue/hollowpath) |
+| **Hollowpath** — “Hold the road.” Dusk-pass tower defense | First public product | [hollowpath](https://github.com/w0rldwid3vib3s/hollowpath) |
 | **Dropforge** — “Stack. Bounce. Topple.” 3D physics playground | Next | repo not created yet |
 | **Stave** — browser music studio | Next | repo not created yet |
 | **Skill Creator** — modular instruction packages | Next | repo not created yet |
