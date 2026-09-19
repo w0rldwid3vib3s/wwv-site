@@ -2,29 +2,54 @@
 
 This is the product inventory. When a product gets its own GitHub **repository**, link it here. A repo is the permanent home for that product’s files.
 
-## Shipping now
+Public landing page: https://w0rldwid3vib3s.github.io/wwv-site/
+
+## Live now
 
 ### Hollowpath
 - Line: Hold the road.
 - Kind: browser tower defense
 - Tone: dusk mountain pass, iron lantern-tower, blight beetle
+- Play: https://w0rldwid3vib3s.github.io/hollowpath/
 - GitHub: https://github.com/w0rldwid3vib3s/hollowpath
-- Status: public repo opened 18 Sep 2026 — playable build still to land
+- Status: public repo + GitHub Pages play URL live (no Release / $1 until publisher says fun)
 
-## Next (no repo yet)
+### CodeStone
+- Line: Quiet coding workshop
+- App: https://codestone.grok.me/
+- Free starters: https://codestone.grok.me/free
+- Gumroad unlock: https://caetano72.gumroad.com/l/codestone
+- Status: live demo + paid unlock (not a public GitHub product repo yet)
+
+### AI Field Notes
+- Line: Calm crash course for people new to AI
+- App: https://beam-stone-quartz-onyx.grok.me/
+- Gumroad Ring 1: https://caetano72.gumroad.com/l/ai-field-notes
+- Status: live, indexable; unlock code FIELDNOTES
+
+### Reply Agent
+- Line: On-brand seller inquiry drafts + scorecard
+- App: https://granite-eagle-garden-granite.grok.me/
+- Gumroad: https://caetano72.gumroad.com/l/reply-agent
+- Status: live standalone host (not nested on CodeStone)
+
+### 7-Day Gumroad Launch Planner
+- Line: First digital product ship-week checklist PDF
+- Gumroad: https://caetano72.gumroad.com/l/zhudb
+- Status: live hero SKU
+
+## Next (no public repo yet)
 
 ### Dropforge
 - Line: Stack. Bounce. Topple.
 - Kind: 3D physics playground
-- Tone: dark industrial workshop; bone / clay / slate / olive / terracotta
 
 ### Stave
 - Line: browser music studio (website, not a game)
-- Tone: ink `#0b0b0c`, bone `#eceae3`, moonlight steel `#c8ccd4`
 
 ### Skill Creator
 - Line: modular instruction packages for agent workflows
 
 ## Not in the public catalog
 
-Private studio ops live in a separate private GitHub repository. They are not listed here on purpose.
+Private studio ops live in `wwv-studio`. Numera app source stays private; storefront listings are separate.
