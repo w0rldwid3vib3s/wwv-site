@@ -27,5 +27,4 @@ This is the product inventory. When a product gets its own GitHub **repository**
 
 ## Not in the public catalog
 
-- `wwv-studio` — private ops (issues, CoS brief, content calendar)
-- `numera` — existing private app, not a WWV storefront product
+Private studio ops live in a separate private GitHub repository. They are not listed here on purpose.
