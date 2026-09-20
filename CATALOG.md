@@ -44,7 +44,8 @@ Public landing page: https://w0rldwid3vib3s.github.io/wwv-site/
 ### Daily Signal
 - Line: What gets tracked gets done.
 - App: https://onyx-kind-kite-zest.grok.me/
-- Status: live, indexable; no Gumroad price yet
+- Gumroad: https://caetano72.gumroad.com/l/daily-signal (CAD $9)
+- Status: live, indexable, Gumroad live 2026-09-20
 
 ## Next (no public repo yet)
 
