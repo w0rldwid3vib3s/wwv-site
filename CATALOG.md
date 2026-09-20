@@ -12,7 +12,9 @@ Public landing page: https://w0rldwid3vib3s.github.io/wwv-site/
 - Tone: dusk mountain pass, iron lantern-tower, blight beetle
 - Play: https://w0rldwid3vib3s.github.io/hollowpath/
 - GitHub: https://github.com/w0rldwid3vib3s/hollowpath
-- Status: public repo + GitHub Pages play URL live (no Release / $1 until publisher says fun)
+- Release: https://github.com/w0rldwid3vib3s/hollowpath/releases/tag/v0.1.0
+- Gumroad: https://caetano72.gumroad.com/l/hollowpath (CAD $1)
+- Status: fun GO + Release v0.1.0 + Gumroad live 2026-09-20
 
 ### CodeStone
 - Line: Quiet coding workshop
