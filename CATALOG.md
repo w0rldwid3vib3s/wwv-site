@@ -40,6 +40,12 @@ Public landing page: https://w0rldwid3vib3s.github.io/wwv-site/
 - Gumroad: https://caetano72.gumroad.com/l/zhudb
 - Status: live hero SKU
 
+
+### Daily Signal
+- Line: What gets tracked gets done.
+- App: https://onyx-kind-kite-zest.grok.me/
+- Status: live, indexable; no Gumroad price yet
+
 ## Next (no public repo yet)
 
 ### Dropforge
