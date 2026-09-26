@@ -4,10 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WorldWideVibes — Grok-built digital products, built in public</title>
-  <meta name="description" content="WorldWideVibes ships Grok-built digital products in public on GitHub. Play Hollowpath, try CodeStone and AI Field Notes, and browse the studio catalog." />
+  <meta name="description" content="WorldWideVibes ships small Grok-built digital products in public on GitHub. Play Hollowpath free (CAD $1 to buy), try Daily Signal, AI Field Notes, CodeStone, and prompt packs on Gumroad." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="WorldWideVibes" />
   <meta property="og:title" content="WorldWideVibes — digital products, built in public" />
-  <meta property="og:description" content="Grok builds. GitHub keeps the copy. Hollowpath, CodeStone, AI Field Notes, Reply Agent, Daily Signal, and more." />
+  <meta property="og:description" content="Grok builds. GitHub keeps the copy. Hollowpath (CAD $1), Daily Signal, AI Field Notes, CodeStone, prompt packs, Reply Agent, and more." />
   <meta property="og:url" content="https://w0rldwid3vib3s.github.io/wwv-site/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="WorldWideVibes — digital products, built in public" />
+  <meta name="twitter:description" content="Grok builds. GitHub keeps the copy. Hollowpath (CAD $1), Daily Signal, AI Field Notes, CodeStone, prompt packs, Reply Agent, and more." />
   <link rel="canonical" href="https://w0rldwid3vib3s.github.io/wwv-site/" />
   <style>
     :root {
@@ -80,76 +85,286 @@
     }
     footer { margin-top: 2.4rem; color: var(--mute); font-size: 0.92rem; line-height: 1.55; }
     footer a { color: var(--steel); }
+    a.btn.buy {
+      border: 1px solid var(--bone);
+      border-radius: 999px;
+      padding: 0.45rem 0.95rem;
+      background: var(--bone);
+      color: var(--ink);
+    }
+    a.btn.buy:hover, a.btn.buy:focus-visible { background: var(--steel); border-color: var(--steel); }
+    .btns { align-items: center; }
+    article { scroll-margin-top: 1.5rem; }
+    article:target { border-color: var(--steel); }
+    article.featured { border-color: rgba(236, 234, 227, 0.4); }
+    .hero-btns { margin-top: 1.4rem; }
   </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "WorldWideVibes catalog",
+  "url": "https://w0rldwid3vib3s.github.io/wwv-site/",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Product",
+        "name": "Hollowpath — Hold the road (v0.1.0)",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/hollowpath",
+          "price": "1.00",
+          "priceCurrency": "CAD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Product",
+        "name": "Daily Signal — post & reply habit tracker",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/daily-signal",
+          "price": "9.00",
+          "priceCurrency": "CAD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Product",
+        "name": "Custom Paint by Number Checklist | Free Numera Mini",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/irciar",
+          "price": "0.00",
+          "priceCurrency": "CAD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Product",
+        "name": "AI Field Notes — Ring 1",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/ai-field-notes",
+          "price": "21.00",
+          "priceCurrency": "CAD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Product",
+        "name": "X hooks, threads, and offer posts — prompt pack",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/yituf",
+          "price": "19.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Product",
+        "name": "CodeStone — Full Workshop",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/codestone",
+          "price": "9.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Product",
+        "name": "7-Day Gumroad Launch Planner",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/zhudb",
+          "price": "21.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Product",
+        "name": "WorldWideVibes Reply Agent",
+        "brand": {
+          "@type": "Brand",
+          "name": "WorldWideVibes"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://caetano72.gumroad.com/l/reply-agent",
+          "price": "149.00",
+          "priceCurrency": "CAD",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <main class="wrap">
     <p class="kicker">WorldWideVibes · on GitHub</p>
     <h1>Digital products,<br />built in public.</h1>
     <p class="lede">A small studio. Grok builds. GitHub keeps the permanent copy. You publish.</p>
+    <div class="btns hero-btns">
+      <a class="btn buy" href="https://caetano72.gumroad.com/l/hollowpath">Buy Hollowpath — CAD $1</a>
+      <a class="btn" href="https://w0rldwid3vib3s.github.io/hollowpath/">Play free first</a>
+      <a class="btn" href="#catalog">See the catalog</a>
+    </div>
     <hr class="rule" />
 
-    <p class="section-label">Live now</p>
+    <p class="section-label" id="catalog">Live now</p>
 
-    <article>
-      <p class="status">First public product · Release v0.1.0 · CAD $1</p>
+    <article id="hollowpath" class="featured">
+      <p class="status">Featured · First public product · Release v0.1.0 · CAD $1</p>
       <h2>Hollowpath</h2>
-      <p>Hold the road. A dusk-pass tower defense — iron lantern-tower, blight on the mountain cut.</p>
+      <p>Hold the road. A dusk-pass tower defense — iron lantern-tower, blight on the mountain cut. Free to play in the browser; CAD $1 gets the packaged v0.1.0 zip and supports the studio.</p>
       <div class="btns">
-        <a class="btn" href="https://w0rldwid3vib3s.github.io/hollowpath/">Play</a>
-        <a class="btn" href="https://caetano72.gumroad.com/l/hollowpath">Buy CAD $1</a>
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/hollowpath">Buy — CAD $1</a>
+        <a class="btn" href="https://w0rldwid3vib3s.github.io/hollowpath/">Play free</a>
         <a class="btn" href="https://github.com/w0rldwid3vib3s/hollowpath">GitHub repo</a>
       </div>
     </article>
 
-    <article>
-      <p class="status">App · workshop</p>
-      <h2>CodeStone</h2>
-      <p>A quiet workshop for learning to write software — JavaScript, Python, SQL, the web, and working with Grok. Free starters, then unlock the full workshop.</p>
-      <div class="btns">
-        <a class="btn" href="https://codestone.grok.me/free">Free starters</a>
-        <a class="btn" href="https://codestone.grok.me/">Workshop</a>
-        <a class="btn" href="https://caetano72.gumroad.com/l/codestone">Buy unlock</a>
-      </div>
-    </article>
-
-    <article>
-      <p class="status">App · crash course</p>
-      <h2>AI Field Notes</h2>
-      <p>A calm map of AI for people new to it. Seven free Ring 0 lessons, then Ring 1 — a first useful week — on Gumroad.</p>
-      <div class="btns">
-        <a class="btn" href="https://beam-stone-quartz-onyx.grok.me/">Open the app</a>
-        <a class="btn" href="https://caetano72.gumroad.com/l/ai-field-notes">Buy Ring 1</a>
-      </div>
-    </article>
-
-    <article>
-      <p class="status">App · seller drafts</p>
-      <h2>Reply Agent</h2>
-      <p>On-brand drafts for seller inquiries and a simple reply scorecard. You copy and send — nothing auto-sends.</p>
-      <div class="btns">
-        <a class="btn" href="https://granite-eagle-garden-granite.grok.me/">Open the app</a>
-        <a class="btn" href="https://caetano72.gumroad.com/l/reply-agent">Buy on Gumroad</a>
-      </div>
-    </article>
-
-    <article>
-      <p class="status">PDF · digital product</p>
-      <h2>7-Day Gumroad Launch Planner</h2>
-      <p>A checklist playbook for shipping your first digital product week. Hero listing on Gumroad.</p>
-      <div class="btns">
-        <a class="btn" href="https://caetano72.gumroad.com/l/zhudb">Open on Gumroad</a>
-      </div>
-    </article>
-
-
-    <article>
+    <article id="daily-signal">
       <p class="status">App · habit tracker · CAD $9</p>
       <h2>Daily Signal</h2>
       <p>What gets tracked gets done. Daily posts and replies versus your targets — with gentle nudges when you’re behind. Does not post for you.</p>
       <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/daily-signal">Buy — CAD $9</a>
         <a class="btn" href="https://onyx-kind-kite-zest.grok.me/">Open the app</a>
-        <a class="btn" href="https://caetano72.gumroad.com/l/daily-signal">Buy CAD $9</a>
+      </div>
+    </article>
+
+
+    <article id="numera-freebie">
+      <p class="status">Free PDF · Numera · CAD $0+</p>
+      <h2>Free Numera Mini — Paint by Number Checklist</h2>
+      <p>A one-page checklist for turning a photo into a paint-by-number sheet. Free; pay what you want if you like it.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/irciar">Get it free — CAD $0+</a>
+      </div>
+    </article>
+
+    <article id="ai-field-notes">
+      <p class="status">App · crash course · CAD $21</p>
+      <h2>AI Field Notes</h2>
+      <p>A calm map of AI for people new to it. Seven free Ring 0 lessons, then Ring 1 — a first useful week — on Gumroad.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/ai-field-notes">Buy Ring 1 — CAD $21</a>
+        <a class="btn" href="https://beam-stone-quartz-onyx.grok.me/">Try the free lessons</a>
+      </div>
+    </article>
+
+    <article id="x-prompt-pack">
+      <p class="status">Prompt pack · USD $19</p>
+      <h2>X Hooks, Threads &amp; Offer Posts — Prompt Pack</h2>
+      <p>Prompts for drafting hooks, threads, replies, and soft offer posts for X. Paste, fill the brackets, edit, publish. Works in Grok, Claude, or ChatGPT. No go-viral formula.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/yituf">Buy — USD $19</a>
+      </div>
+    </article>
+
+    <article id="codestone">
+      <p class="status">App · workshop · USD $9</p>
+      <h2>CodeStone</h2>
+      <p>A quiet workshop for learning to write software — JavaScript, Python, SQL, the web, and working with Grok. Free starters, then unlock the full workshop.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/codestone">Unlock — USD $9</a>
+        <a class="btn" href="https://codestone.grok.me/free">Free starters</a>
+        <a class="btn" href="https://codestone.grok.me/">Workshop</a>
+      </div>
+    </article>
+
+    <article id="launch-planner">
+      <p class="status">PDF · checklist · USD $21</p>
+      <h2>7-Day Gumroad Launch Planner</h2>
+      <p>A checklist playbook for shipping your first digital product in one week: one offer, one price, one page live — then keep, fix, or kill.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/zhudb">Buy — USD $21</a>
+      </div>
+    </article>
+
+    <article id="reply-agent">
+      <p class="status">App · seller drafts · CAD $149</p>
+      <h2>Reply Agent</h2>
+      <p>On-brand drafts for seller inquiries and a simple reply scorecard. You copy and send — nothing auto-sends.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/reply-agent">Buy — CAD $149</a>
+        <a class="btn" href="https://granite-eagle-garden-granite.grok.me/">Open the app</a>
+      </div>
+    </article>
+
+    <hr class="rule" />
+    <p class="section-label">Remote service</p>
+
+    <article id="bizbox-starter">
+      <p class="status">BizBox · owner-operated small businesses · from CAD $750</p>
+      <h2>BizBox Starter</h2>
+      <p>Done with you over Zoom or email: a look check (logo refresh or simple wordmark), one print-ready business card, your Google Business Profile cleaned up, and a one-pager. Starter runs CAD $750–$1,500, one time. No ads.</p>
+      <div class="btns">
+        <a class="btn buy" href="https://caetano72.gumroad.com/l/rrntwf">Start — from CAD $750</a>
       </div>
     </article>
 
